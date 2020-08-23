@@ -12,3 +12,5 @@
 
 ## 预测新数据
 将test.jpg放到目录下，运行predict.py即可
+
+还可以利用catch_face.py来捕捉猫的面部获取仅有面部的数据集，数据将会保存在dataset_face中，利用面部数据集会有更低的过拟合度
