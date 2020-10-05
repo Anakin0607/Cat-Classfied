@@ -11,6 +11,6 @@
 处理完数据后，利用train.py训练模型，默认训练25次，可自行更改，如果显存较小请开启按需分配显存，训练结束后训练过程会以图形的方式展示
 
 ## 预测新数据
-将test.jpg放到目录下，运行predict.py即可
+将test.jpg放到目录下，在powershell中输入python predict.py <dataset> <img> <model> (dataset 为数据集名称，img为图像名称，model为模型名称
 
 还可以利用catch_face.py来捕捉猫的面部获取仅有面部的数据集，数据将会保存在dataset_face中，利用面部数据集会有更低的过拟合度
